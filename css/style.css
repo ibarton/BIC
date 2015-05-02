@@ -1,0 +1,173 @@
+body {
+    background: url(../img/background.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'HelveticaNeueRoman';
+}
+
+h4 {
+    color: #0d5c9f;
+}
+
+.topmenu {
+    background: #176db6;
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, #176db6 0%, #7db9e8 100%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #176db6), color-stop(100%, #7db9e8));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, #176db6 0%, #7db9e8 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, #176db6 0%, #7db9e8 100%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, #176db6 0%, #7db9e8 100%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, #176db6 0%, #7db9e8 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#176db6', endColorstr='#7db9e8', GradientType=0);
+    /* IE6-9 */
+    
+    -webkit-box-shadow: 0px 6px 15px -4px rgba(43, 43, 43, 1);
+    -moz-box-shadow: 0px 6px 15px -4px rgba(43, 43, 43, 1);
+    box-shadow: 0px 6px 15px -4px rgba(43, 43, 43, 1);
+    border: 0px;
+}
+
+.icecream {
+    display: block;
+    margin: 0 auto;
+}
+
+.icecream img {
+    padding: 50px 13px;
+}
+
+.icecream-wrapper {
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+.midmenu {
+    font-family: "HelveticaNeueBold";
+    color: #244390;
+}
+
+.midgallery {
+    background-color: #45bdd5;
+}
+
+.homebottom {
+    background-color: #bbeaf3;
+}
+
+.footer {
+    background-color: #316892;
+}
+
+.copyright {
+    background-color: #bbeaf3;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.glyphicon.glyphicon-map-marker {
+    font-size: 25px;
+}
+
+.glyphicon.glyphicon-home {
+    font-size: 25px;
+}
+
+.white,
+.white a {
+    color: #fff;
+}
+
+.locationtxt {
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav.navbar-nav li a {
+    color: #fff;
+}
+
+.nav.navbar-nav li a:hover {
+    color: #e5e;
+}
+
+.instagram-box {
+    background-image: url(/img/instagram-bg.png);
+    background-repeat: no-repeat;
+    min-height: 350px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.centered-pills {
+    text-align: center;
+}
+
+.centered-pills ul.nav-pills {
+    display: inline-block;
+}
+
+.centered-pills li {
+    display: inline;
+}
+
+.centered-pills a {
+    float: left;
+}
+
+* html .centered-pills ul.nav-pills {
+    display: inline;
+}
+/* IE6 */
+
+*+html .centered-pills ul.nav-pills {
+    display: inline;
+}
+/* IE7 */
+
+.data-slick {}
+
+.slick-wrapper {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+.mid-img{
+    display:inline-block;
+    padding:5px;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueBold';
+    src: url('fonts/helveticaneueltpro-bd.eot');
+    src: url('fonts/helveticaneueltpro-bd.eot?#iefix') format('embedded-opentype'), url('fonts/helveticaneueltpro-bd.woff') format('woff'), url('fonts/helveticaneueltpro-bd.ttf') format('truetype'), url('fonts/helveticaneueltpro-bd.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueRoman';
+    src: url('fonts/helveticaneueltpro-roman.eot');
+    src: url('fonts/helveticaneueltpro-roman.eot?#iefix') format('embedded-opentype'), url('fonts/helveticaneueltpro-roman.woff') format('woff'), url('fonts/helveticaneueltpro-roman.ttf') format('truetype'), url('fonts/helveticaneueltpro-roman.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLight';
+    src: url('fonts/helveticaneueltpro-lt.eot');
+    src: url('fonts/helveticaneueltpro-lt.eot?#iefix') format('embedded-opentype'), url('fonts/helveticaneueltpro-lt.woff') format('woff'), url('fonts/helveticaneueltpro-lt.ttf') format('truetype'), url('fonts/helveticaneueltpro-lt.svg#webfont') format('svg');
+}
